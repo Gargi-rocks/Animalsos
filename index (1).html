@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOS for Animals</title>
+  <link rel="stylesheet" href="style (2).css">
+  
+</head>
+<body>
+  <header>
+    <h1>SOS for Animals in Need</h1>
+    <p>Report animals that require immediate help in your area.</p>
+  </header>
+
+  <section class="report-form">
+    <h2>Report an Animal</h2>
+    <form id="sosForm">
+      <label for="animalType">Animal Type:</label>
+      <input type="text" id="animalType" name="animalType" required>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <button type="submit">Submit Report</button>
+    </form>
+  </section>
+  <!-- <a href="#"><img src="c:\Users\hp\Pictures\about-location.jpg" alt ="Hello" class="center" width=1000px height=500px title=""></a>  -->
+  <section class="report-list">
+    <h2>Animals in Need</h2>
+    <div id="reports"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
